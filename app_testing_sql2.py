@@ -1,6 +1,5 @@
 #importing packages
 from flask import Flask, render_template, jsonify, redirect, request
-import numpy as np
 import pickle
 import sqlite3
 import os

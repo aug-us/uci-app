@@ -1,0 +1,155 @@
+<html>
+<body>
+<tr>
+<td colspan="10">
+<center><h3style="background-color:blue"><font size=5><b> PROGNOSTIC MODEL FOR HEART FAILURE</b></h3></font></center>
+</td>
+</tr>
+<div>
+<form action = "/result" method="POST">
+<table cellpadding="5" width="70%" bgcolor="mistyrose"
+align="center"
+cellspacing="2">
+
+<tr>
+<td colspan="5">
+<center><h3style="background-color:blue"><font size=4><b> SPECIFIC DETAILS</b></h3></font></center>
+</td>
+</tr>
+
+<tr>
+<td> AGE </td>
+<td><input type="number" name="age" min="0" max="120" id="textname" size="3"></td>
+</tr>
+
+<tr>
+<td>SEX</td>
+<td><input type="radio" name="sex" value="1" size="10">MALE
+<input type="radio" name="sex" value="0" size="10">FEMALE
+</tr>
+
+<tr>
+<td> RESTING BLOOD PRESSURE </td>
+<td><input type="number" name="resting blood pressure" min="-9" max="500" id="textname" size="5"></td>
+</tr>
+
+<tr>
+<td>CHOLESTROL </td>
+<td><input type="number" name="cholestrol" min="-9" max="500" id="textname" size="5"></td>
+</tr>
+
+<tr>
+<td>FASTING BLOOD SUGAR </td>
+<td><input type="radio" name="fasting blood sugar" value="1" size="10">YES
+<input type="radio" name="fasting blood sugar" value="0" size="10">NO
+<input type="radio" name="fasting blood sugar" value="-9" size="10">UNKNOWN
+</tr>
+
+<tr>
+<td>MAXIMUM HEART RATE </td>
+<td><input type="number" name="max heart rate" min="-9" max="500" id="textname" size="5"></td>
+</tr>
+
+<tr>
+<td>EXERCISE INDUCED ANGINA </td>
+<td><input type="radio" name="exercise induced angina" value="1" size="10">YES
+<input type="radio" name="exercise induced angina" value="0" size="10">NO
+<input type="radio" name="exercise induced angina" value="-9" size="10">UNKNOWN
+</tr>
+
+<tr>
+<td>NO. OF BLOOD VESSELS SEEN IN FLUOROSCOPY </td>
+<td><input type="radio" name="no of blood vessels" value="0" size="10">0
+<input type="radio" name="no of blood vessels" value="1" size="10">1
+<input type="radio" name="no of blood vessels" value="2" size="10">2
+<input type="radio" name="no of blood vessels" value="3" size="10">3
+<input type="radio" name="no of blood vessels" value="4" size="10">4
+<input type="radio" name="no of blood vessels" value="-9" size="10">UNKNOWN
+</tr>
+
+<tr>
+<td>CHEST PAIN - TYPICAL ANGINA  </td>
+<td><input type="radio" name="chest pain type 1" value="1" size="10">YES
+<input type="radio" name="chest pain type 1" value="0" size="10">NO
+</tr>
+
+<tr>
+<td>CHEST PAIN - ATYPICAL ANGINA </td>
+<td><input type="radio" name="chest pain type 2" value="1" size="10">YES
+<input type="radio" name="chest pain type 2" value="0" size="10">NO
+</tr>
+
+<tr>
+<td>CHEST PAIN - ASYMPTOMATIC </td>
+<td><input type="radio" name="chest pain type 3" value="1" size="10">YES
+<input type="radio" name="chest pain type 3" value="0" size="10">NO
+</tr>
+
+<tr>
+<td>CHEST PAIN - NON-ANGINAL </td>
+<td><input type="radio" name="chest pain type 4" value="1" size="10">YES
+<input type="radio" name="chest pain type 4" value="0" size="10">NO
+</tr>
+
+<tr>
+<td>ST DEPRESSION VALUE </td>
+<td><input type="number" step=0.1 name="ST depression" id="textname" size="5"></td>
+</tr>
+
+<tr>
+<td> ST SEGMENT - UPSLOPING </td>
+<td><input type="radio" name="slope of ST segment 1" value="1" size="10">YES
+<input type="radio" name="slope of ST segment 1" value="0" size="10">NO
+</tr>
+
+<tr>
+<td>ST SEGMENT - FLAT </td>
+<td><input type="radio" name="slope of ST segment 2" value="1" size="10">YES
+<input type="radio" name="slope of ST segment 2" value="0" size="10">NO
+</tr>
+
+<tr>
+<td>ST SEGMENT - DOWNSLOPING </td>
+<td><input type="radio" name="slope of ST segment 3" value="1" size="10">YES
+<input type="radio" name="slope of ST segment 3" value="0" size="10">NO
+</td>
+
+<tr>
+<td>ST SEGMENT - UNKNOWN</td>
+<td><input type="radio" name="slope of ST segment -9" value="1" size="10">YES
+<input type="radio" name="slope of ST segment -9" value="0" size="10">NO
+</tr>
+
+<tr>
+<td>RESTING ECG - NORMAL</td>
+<td><input type="radio" name="resting ecg 0" value="1" size="10">YES
+<input type="radio" name="resting ecg 0" value="0" size="10">NO
+</tr>
+
+<tr>
+<td>RESTING ECG - ST-T WAVE ABNORMALITY</td>
+<td><input type="radio" name="resting ecg 1" value="1" size="10">YES
+<input type="radio" name="resting ecg 1" value="0" size="10">NO
+</tr>
+
+<tr>
+<td>RESTING ECG - PROBABLE LEFT VENTRICULAR HYPERTROPY</td>
+<td><input type="radio" name="resting ecg 2" value="1" size="10">YES
+<input type="radio" name="resting ecg 2" value="0" size="10">NO
+</tr>
+
+<tr>
+<td>RESTING ECG - UNKNOWN</td>
+<td><input type="radio" name="resting ecg -9" value="1" size="10">YES
+<input type="radio" name="resting ecg -9" value="0" size="10">NO
+</tr>
+
+<tr>
+<td><center><input type="reset"><td colspan="1"><input type="submit" value="Submit"></center></td>
+</tr>
+
+</table>
+</form>
+</div>
+</body>
+</html>
